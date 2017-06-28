@@ -38,6 +38,8 @@ ul li {
 #footer {
   background-color: dimgray;
   color: white;
-  font-size: 11px;
   text-align: left;
+}
+.copyright {
+  font-size: 11px;
 }
