@@ -27,11 +27,17 @@ ul li {
 }
 #designed h2 {
   font-size: 23px;
-  background-image: url(../images/the-flatiron-building.png);
   color: white;
 }
-#header {
+#header,
+#designed h2 {
   background-image: url(../images/the-flatiron-building.png);
   background-size: cover;
   background-position: center;
+}
+#footer {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+  text-align: left;
 }
