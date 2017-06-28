@@ -11,6 +11,10 @@ h2 {
   font-size: 32px;
   font-weight: bold;
 }
+h3  {
+  font-size: 23px;
+  font-weight: bold;
+}
 a {
   color: white;
 }
@@ -21,8 +25,13 @@ ul {
 ul li {
   font-size: 18px;
 }
+#designed h2 {
+  font-size: 23px;
+  background-image: url(../images/the-flatiron-building.png);
+  color: white;
+}
 #header {
-  background-image: url("../images/the-flatiron-building.png");
+  background-image: url(../images/the-flatiron-building.png);
   background-size: cover;
   background-position: center;
 }
