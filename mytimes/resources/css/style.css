@@ -80,14 +80,13 @@ nav span a {
   flex-direction: column;
   display: flex;
   height: 300px;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .image-story span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  padding-top: 10px;
 }
 .story-main.image-story span {
   text-align: left;
