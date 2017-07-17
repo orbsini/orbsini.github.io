@@ -1,64 +1,68 @@
-/* Show off the body */
+/**********************/
+/*******  BODY  *******/
+/**********************/
+
+/* Style the body */
 body {
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  text-align: center;
-  margin: 0;
-  opacity: 0.9;
+  text-align: center; /* Center text in the center */
+  margin: 0; /* Remove margins */
+  opacity: 0.9; /* Reduce opacity */
 }
 
-/* Flex those muscles */
+/* Define flex classes */
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: flex; /* Flex time! */
+  flex-wrap: wrap; /* Wrap — default is nowrap */
+  justify-content: center; /* Center content — default is flex-start */
 }
 .flex-inline {
-  display: inline-flex;
+  display: inline-flex; /* Flex horizontally */
 }
 
-/****************/
-/**** HEADER ****/
-/****************/
+/************************/
+/*******  HEADER  *******/
+/************************/
 
-/* Header */
+/* Wrapper */
 header {
   background-color: black;
-  border-bottom: 1px solid seashell;
+  border-bottom: 1px solid seashell; /* Add a border to the bottom */
   height: 69px;
-  position: fixed;
+  position: fixed; /* Don't move a muscle */
   width: 100%;
-  z-index: 1;
+  z-index: 1; /* Rise up! */
 }
 /* Logo */
 .logo {
-  align-self: center;
-  height: 50px;
-  padding-left: 10px;
+  align-self: center; /* Center logo */
+  height: 50px; /* Set height */
+  padding-left: 10px; /* Move a little to the right */
 }
 /* Navigation */
 nav {
-  flex-grow: 1;
-  justify-content: flex-end;
+  flex-grow: 1; /* Auto stretch horizontally */
+  justify-content: flex-end; /* Keep to the right — default is flex-start */
 }
 nav a {
   display: block;
   color: seashell;
-  text-decoration: underline;
-  padding: 20px;
+  text-decoration: underline; /* Add underlines to hyperlinks */
+  padding: 20px; /* Add padding around each hyperlinks */
 }
 
-/**************/
-/**** MAIN ****/
-/**************/
+/******************************/
+/*******  MAIN CONTENT  *******/
+/******************************/
 
-/* Mission */
+/* Our mission */
 .main-content {
-  width: 1200px;
-  margin: 0 auto;
-  padding-top: 70px;
+  width: 1200px; /* Set a width of 1200px */
+  margin: 0 auto; /* Keep it center */
+  padding-top: 70px; /* Push down from header so it's visible */
 }
 .bg-image-mission {
   background-image: url(../images/img-mission-background.jpg); /* Add background image*/
@@ -70,3 +74,4 @@ nav a {
   margin: auto; /* Center block*/
   width: 100%; /* Make full width */
 }
+/* Tea of the month */
