@@ -68,7 +68,7 @@ nav a {
 #our-mission {
   margin-bottom: 70px;
 }
-#our-mission .bg-black {
+#our-mission .content {
   background-color: #000000; /* Add background colour */
   margin: auto; /* Center block*/
   width: 100%; /* Make full width */
@@ -91,4 +91,26 @@ nav a {
 }
 .totm-images h4 {
   margin: 10px 30px 30px; /* Give breathing room top, right-left, bottom */
+}
+/* Locations */
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  margin: 40px auto 70px;
+  padding-top: 120px; /* Move down stores container */
+}
+#locations h2 {
+  width: 100%; /* Fill full width of container */
+  margin: 10px 0;
+}
+#locations .stores {
+  width: 1100px; /* Set width of stores container */
+  margin: auto; /* Center in the middle */
+}
+#locations .store {
+  background-color: #000000; /* Add black background colour */
+  width: 300px; /* Set width of each store */
+  margin: auto 20px;
+  opacity: 1;
+  padding: 20px 0;
 }
