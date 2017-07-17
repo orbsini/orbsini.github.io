@@ -118,3 +118,15 @@ nav a {
   opacity: 1;
   padding: 20px 0;
 }
+/* Contact */
+#contact {
+  margin-bottom: 70px;
+}
+
+/************************/
+/*******  FOOTER  *******/
+/************************/
+footer h5 {
+  text-align: left; /* Align text left */
+  margin-left: 20px;
+}
