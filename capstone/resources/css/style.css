@@ -1,0 +1,164 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  color: #414141;
+}
+
+/* === Global classes ==*/
+.container {
+  max-width: 1028px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+
+/* === Fonts === */
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 1.7em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+p {
+  font-weight: 300;
+}
+
+/* ============== */
+/* === Header === */
+/* ============== */
+
+/* Navigation */
+nav {
+  align-items: center;
+  color: #212121;
+  display: flex;
+  padding: .5rem 0;
+  justify-content: space-between;
+}
+nav span {
+  text-transform: uppercase;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  height: 2.4rem;
+  margin-left: 1rem;
+  margin-right: .1rem;
+}
+nav ul {
+  margin-right: 1rem;
+}
+nav li {
+  display: inline;
+  padding: .5rem;
+}
+nav a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: .88em;
+}
+.truncated-menu {
+  display: none;
+}
+.colmar {
+  font-weight: bold;
+}
+.academy {
+  font-weight: 300;
+  color: #999999;
+}
+/* === Banner === */
+.main-banner h1 {
+  padding-bottom: 18px;
+}
+.main-banner h3 {
+  padding-bottom: 5px;
+}
+.main-banner {
+  background-color: #d3d2d3;
+}
+.main-banner .image {
+  width: 60%;
+  padding: 32px 24px;
+}
+.main-banner .image img {
+  width: 100%;
+}
+.main-banner .text {
+  margin: 6em 0 0 1em;
+  width: 70%;
+}
+.main-banner .text a {
+  background-color: #414141;
+  color: white;
+  display: block;
+  font-weight: 300;
+  font-size: .88em;
+  margin-top: 20px;
+  padding: 8px 0;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+/* === Information === */
+.information .supporting {
+  width: 60%;
+  padding: 32px 24px;
+}
+.information .supporting img {
+  width: 100%;
+}
+.information .posts {
+  flex-direction: column;
+  padding-top: 16px;
+  width: 40%;
+}
+.information .posts img {
+  position: relative;
+  width: 35%;
+  height: 100%;
+}
+.information .post {
+  padding: 16px;
+}
+.information .text {
+  width: 65%;
+  padding-left: 15px;
+}
+.information h2 {
+  padding: 16px 0 18px 0;
+}
+.information .supporting p {
+  padding-bottom: 16px;
+  line-height: 1.5;
+}
+.information p {
+  font-size: 0.83em;
+  padding: 6px 0;
+}
+.information h3 {
+  padding-top: 1em;
+}
+.information a {
+  color: #30a9e4;
+  text-decoration: none;
+  font-size: .875em;
+}
+.post:nth-child(3n+0) {
+  background-color: #d3d2d3;
+}
