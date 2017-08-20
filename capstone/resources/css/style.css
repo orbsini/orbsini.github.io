@@ -35,7 +35,7 @@ h3 {
   font-weight: 400;
 }
 p {
-  font-size: 0.83em;
+  font-size: 0.90em;
   font-weight: 300;
 }
 
@@ -117,7 +117,7 @@ nav a {
   color: white;
   display: block;
   font-weight: 300;
-  font-size: .88em;
+  font-size: 1em;
   margin-top: 20px;
   padding: 8px 0;
   text-decoration: none;
@@ -168,12 +168,15 @@ nav a {
   padding-top: 16px;
 }
 .information a {
-  color: #30a9e4;
+  color: inherit;
   text-decoration: none;
   font-size: .875em;
 }
+.information a.read-more {
+  color: #30a9e4;
+}
 .information .post:nth-child(3n+0) {
-  background-color: #d3d2d3;
+  background-color: #d3d2d3; /* add a bg colour to the third post */
 }
 /* === Start learning === */
 .learning {
@@ -210,12 +213,20 @@ nav a {
 .course p {
   padding-bottom: 10px;
 }
+.course a {
+  text-decoration: none;
+  color: inherit;
+}
 .course p:nth-child(2) {
   text-transform: uppercase;
 }
 /* === Thesis exhibit === */
 .exhibit {
   padding-bottom: 32px;
+}
+.exhibit a {
+  color: inherit;
+  text-decoration: none;
 }
 .exhibit h1 {
   padding: 32px 0;
@@ -270,7 +281,7 @@ footer {
 }
 footer span,
 footer a {
-  font-size: .75em;
+  font-size: .85em;
   color: #767676;
 }
 footer .links {
@@ -297,7 +308,7 @@ footer .text {
   /* Navigation */
   nav .menu .links,
   nav .logo {
-    display: none; /* hide menu */
+    display: none; /* hide navigation elements */
   }
   nav .truncated-menu,
   nav div {
@@ -305,6 +316,7 @@ footer .text {
     justify-content: space-between;
     width: 100%;
     padding: 0 1.5em;
+    margin: 0;
   }
   nav .truncated-menu li {
     width: 40px;
@@ -324,9 +336,15 @@ footer .text {
     margin: 40px auto;
     width: 65%;
   }
+  .main-banner .text a {
+    font-size: 1.125em;
+  }
   /* Information */
   .information .supporting {
     display: none;
+  }
+  .information .posts {
+    padding-top: 0;
   }
   .information .posts,
   .information .post img {
@@ -337,6 +355,7 @@ footer .text {
   }
   .information .post {
     display: block;
+    padding: 24px;
   }
   .orientation-desktop,
   .campus-desktop,
@@ -349,10 +368,10 @@ footer .text {
     display: block; /* show mobile images */
   }
   .information .post:nth-child(3n+0) {
-    background: none; /* remove background */
+    background: none; /* remove background color */
   }
   .information h3 {
-    font-size: 1.5em; /* increase size for mobile */
+    font-size: 1.5em;
   }
   .information p,
   .information a {
@@ -363,11 +382,11 @@ footer .text {
   }
   /* Start learning */
   .courses {
-    padding: 0 30px;
+    padding: 0 24px;
   }
   .course img,
   .course .text p {
-    display: none; /* hide elements */
+    display: none;
   }
   .course {
     width: 100%;
@@ -378,7 +397,7 @@ footer .text {
   }
   .course h3 {
     padding: 5px 0;
-    font-size: 1.38em;
+    font-size: 1.25em;
   }
   .learning {
     border-top: 1px solid #e1e3e3;
